@@ -216,7 +216,7 @@
 						 href="https://www.linkedin.com/in/arif-un/" target="_blank"><span class="ti-linkedin"></span></a> </small>
 					<div style="
                             margin: 5px" class="is-flex">
-						<a style="margin: auto" href=""><img class="made-with-bulma" src="assets/images/made-with-bulma.png" alt=""></a></div>
+						<a style="margin: auto" href="https://bulma.io"><img class="made-with-bulma" src="assets/images/made-with-bulma.png" alt=""></a></div>
 				</div>
 			</div>
 		</div>
