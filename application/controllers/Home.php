@@ -14,19 +14,19 @@ class Home extends CI_Controller
          // Create Client Request to access Google API
         $client = new Google_Client();
         $client->setApplicationName("Google OAuth Login");
-        $client->setClientId('117369336994-0e43cm3kbe78ebqsnf0g7a6m01k6so7k.apps.googleusercontent.com');
-        $client->setClientSecret('DGgMJklMKhFg2WzBMCwERfF_');
+        $client->setClientId('');
+        $client->setClientSecret('');
         $client->setRedirectUri('http://localhost/codeigniter-blog/index.php/Social_auth/signup_with_google');
-        $client->setDeveloperKey('AIzaSyBg7JnhuvxmMTE3w-s0VAmxKxutNfwnOMM');
+        $client->setDeveloperKey('');
         $client->addScope("https://www.googleapis.com/auth/userinfo.email");
          
         // login token
         $loginTkn = new Google_Client();
         $loginTkn->setApplicationName("Google OAuth Login");
-        $loginTkn->setClientId('117369336994-0e43cm3kbe78ebqsnf0g7a6m01k6so7k.apps.googleusercontent.com');
-        $loginTkn->setClientSecret('DGgMJklMKhFg2WzBMCwERfF_');
+        $loginTkn->setClientId('');
+        $loginTkn->setClientSecret('');
         $loginTkn->setRedirectUri('http://localhost/codeigniter-blog/index.php/Social_auth/login_with_google');
-        $loginTkn->setDeveloperKey('AIzaSyBg7JnhuvxmMTE3w-s0VAmxKxutNfwnOMM');
+        $loginTkn->setDeveloperKey('');
         $loginTkn->addScope("https://www.googleapis.com/auth/userinfo.email");
          // link
          $authUrl = $client->createAuthUrl();
