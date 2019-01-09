@@ -73,7 +73,7 @@ class Home extends CI_Controller
 
                 $data = array(
                     'name' => $this->input->post('name'),
-                    'username' => str_replace(' ', '', $this->input->post('name')) . rand(0, 100),
+                    'username' => str_replace('     ', '', $this->input->post('name')) . rand(0, 100),
                     'email' => $this->input->post('email'),
                     'password' => md5($this->input->post('password')),
                     'birth' => $this->input->post('birth'),
